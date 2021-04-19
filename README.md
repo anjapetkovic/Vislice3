@@ -2,7 +2,6 @@
 
 ## Avtorji
 
-* Lojze Slak
 * Anja Petković
 * Matija Pretnar
 
