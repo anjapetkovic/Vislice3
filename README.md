@@ -2,7 +2,7 @@
 
 ## Avtorji
 
-* Lojze Slak
+* Adi Smolar
 * Anja Petković
 * Matija Pretnar
 
