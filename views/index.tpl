@@ -10,9 +10,9 @@
     <small>Študentje</small>
   </blockquote>
 
-  <img src="img/10.jpg" alt="obesanje">
+  <img src="/img/10.jpg" alt="obesanje">
 
-  <form action="/igra/" method="post">
+  <form action="/igra/" method="get">
     <button type="submit">Nova igra</button>
   </form>
 </body>

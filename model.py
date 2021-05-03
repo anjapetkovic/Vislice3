@@ -1,6 +1,6 @@
 import random
 
-STEVILO_DOVOLJENIH_NAPAK = 10
+STEVILO_DOVOLJENIH_NAPAK = 9
 PRAVILNA_CRKA = '+'
 PONOVLJENA_CRKA = 'o'
 NAPACNA_CRKA = '-'
@@ -69,7 +69,7 @@ class Igra:
                 return NAPACNA_CRKA
 
 
-with open('vislice3/besede.txt', 'r') as f:
+with open('besede.txt', 'r') as f:
     bazen_besed = [beseda.strip().upper() for beseda in f.readlines()]
 
 
