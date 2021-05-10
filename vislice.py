@@ -2,8 +2,11 @@ import bottle
 import model
 
 SKRIVNOST = "DanesJeLepDan"
+DATOTEKA_S_STANJEM = "stanje.json"
+DATOTEKA_Z_BESEDAMI = "besede.txt"
 
-vislice = model.Vislice()
+vislice = model.Vislice(DATOTEKA_S_STANJEM, DATOTEKA_Z_BESEDAMI)
+vislice.nalozi_igre_iz_datoteke()
 
 
 @bottle.get("/")
