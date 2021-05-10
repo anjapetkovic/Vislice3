@@ -35,5 +35,5 @@ def serve_pictures(picture):
 bottle.run(reloader=True, debug=True)
 
 # "files.associations": {
-#         "*.tpl": "html",
+#         "*.tpl": "html",..
 #     },
