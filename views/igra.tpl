@@ -1,8 +1,5 @@
 % import model
-<!DOCTYPE html>
-<html>
-
-<body>
+% rebase('base.tpl', title='Igra')
 
 <table>
     <tr>
@@ -23,7 +20,7 @@
 
 Uganili ste pravilno geslo. Čestitke!
 
-<form action="/igra/" method="get">
+<form action="/nova_igra/" method="post">
     <button type="submit">Nova igra</button>
 </form>
 
@@ -33,18 +30,14 @@ Uganili ste pravilno geslo. Čestitke!
 
 Pravilno geslo je: {{igra.geslo}}
 
-<form action="/igra/" method="get">
+<form action="/nova_igra/" method="post">
     <button type="submit">Nova igra</button>
 </form>
 
 % else:
-<form action="/igra/{{id_igre}}/" method="post">
+<form action="/igra/" method="post">
     <input type="text" name="crka" autofocus>
     <button type="submit">Ugibaj!</button>
 </form>
 
 % end
-
-</body>
-
-</html>
